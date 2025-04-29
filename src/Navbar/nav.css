@@ -1,0 +1,24 @@
+.navbar {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 0 30px;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 40%);
+  backdrop-filter: blur(5px);
+  z-index: 1;
+}
+
+.active {
+  color: blueviolet;
+}
+.navbar a {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
