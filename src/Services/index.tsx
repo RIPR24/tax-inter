@@ -13,10 +13,12 @@ import tm from "../assets/logo/tm.svg";
 import tl from "../assets/logo/tl.svg";
 import tp from "../assets/logo/tax-plan.svg";
 import Hero from "../Hero";
+import { useNavigate } from "react-router-dom";
 
 const pics = [bill, imp, n2, n1, web, loan, tm, tl, cal, tp];
 
 const Services = () => {
+  const navigate = useNavigate();
   return (
     <div className="con">
       <Hero />
@@ -28,6 +30,14 @@ const Services = () => {
               <img src={pics[i]} style={{ height: 60, width: 60 }} />
               <h2>{el.title}</h2>
               <p>{el.head}</p>
+              <h3
+                onClick={() => {
+                  navigate("/contact/" + el.title);
+                }}
+                className="exp"
+              >
+                EXPLORE
+              </h3>
             </div>
           </Fadeup>
         ))}

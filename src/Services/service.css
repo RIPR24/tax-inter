@@ -21,4 +21,10 @@
 
 .shrt {
   height: 200px;
+  position: relative;
+}
+
+.exp {
+  color: #304abd;
+  transition: 0.2s;
 }
