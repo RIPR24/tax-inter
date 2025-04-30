@@ -27,7 +27,11 @@ const Contact = () => {
     const id = e.target.id;
     setInfo((p) => {
       const copy = { ...p };
-      copy[id] = e.target.value;
+      if (id === "nam") copy[id] = e.target.value;
+      else if (id === "num") copy[id] = e.target.value;
+      else if (id === "email") copy[id] = e.target.value;
+      else if (id === "ef") copy[id] = e.target.value;
+      else if (id === "msg") copy[id] = e.target.value;
       return copy;
     });
   };
