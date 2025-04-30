@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="con">
       {/* <Imgslideshow /> */}
-      <h1 style={{ fontSize }}>ABOUT US</h1>
+      <h1>ABOUT US</h1>
     </div>
   );
 };

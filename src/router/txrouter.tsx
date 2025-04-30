@@ -15,6 +15,10 @@ export const Txrouter = createBrowserRouter([
         element: <Home />,
       },
       {
+        path: "/contact/:ef",
+        element: <Contact />,
+      },
+      {
         path: "/contact",
         element: <Contact />,
       },

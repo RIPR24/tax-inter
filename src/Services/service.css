@@ -1,18 +1,24 @@
 .ser-con {
   width: "90%";
+  height: 1200px;
   max-width: 1200px;
   margin-top: 60px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 280px 280px 280px 280px;
 }
 
 .ser-con h2 {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: 400;
   color: #304abd;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .ser-con p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+}
+
+.shrt {
+  height: 200px;
 }

@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./contact.css";
 import sr from "../assets/logo.png";
+import { useParams } from "react-router-dom";
 
 type info = {
   nam: string;
@@ -11,11 +12,12 @@ type info = {
 };
 
 const Contact = () => {
+  const { ef } = useParams();
   const [info, setInfo] = useState<info>({
     nam: "",
     email: "",
     num: "",
-    ef: "",
+    ef: ef || "",
     msg: "",
   });
 
