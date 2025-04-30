@@ -1,4 +1,5 @@
 import hr from "./assets/imgs/hero.png";
+import lg from "./assets/imgs/log.png";
 
 const Hero = () => {
   return (
@@ -10,16 +11,14 @@ const Hero = () => {
           position: "absolute",
           top: 0,
           left: 0,
-          height: 400,
+          height: 450,
           zIndex: -1,
         }}
       />
-      <h2 style={{ color: "aliceblue", fontSize: "3rem", padding: "0 20px" }}>
-        TAX INDIA
-      </h2>
-      <h3 style={{ color: "aliceblue", fontSize: "2rem", padding: "0 20px" }}>
+      <img src={lg} style={{ width: 250 }} />
+      <p style={{ color: "aliceblue", fontSize: "2rem", padding: "0 20px" }}>
         Mobile no. : 7003631507
-      </h3>
+      </p>
     </div>
   );
 };

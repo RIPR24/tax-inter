@@ -14,6 +14,7 @@ import tl from "../assets/logo/tl.svg";
 import tp from "../assets/logo/tax-plan.svg";
 import Hero from "../Hero";
 import { useNavigate } from "react-router-dom";
+import Headings from "../Reusable/Headings";
 
 const pics = [bill, imp, n2, n1, web, loan, tm, tl, cal, tp];
 
@@ -22,7 +23,7 @@ const Services = () => {
   return (
     <div className="con">
       <Hero />
-      <img src={sr} alt="" style={{ width: "50%" }} />
+      <Headings str="Services" />
       <div className="ser-con">
         {dat.map((el, i) => (
           <Fadeup key={i} del={i % 3}>

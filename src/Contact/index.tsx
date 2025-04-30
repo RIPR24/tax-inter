@@ -91,10 +91,12 @@ const Contact = () => {
             value={info.msg}
             onChange={handleChange}
           />
+          <div></div>
+          <button style={{ maxWidth: 140 }} onClick={sendDet}>
+            SEND
+          </button>
         </div>
       </div>
-
-      <button onClick={sendDet}>SEND</button>
     </div>
   );
 };

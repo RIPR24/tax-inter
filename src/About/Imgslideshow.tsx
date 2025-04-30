@@ -2,16 +2,17 @@ import { useEffect, useState } from "react";
 import ab1 from "../assets/imgs/ab1.jpeg";
 import ab2 from "../assets/imgs/ab2.jpeg";
 import ab3 from "../assets/imgs/ab3.jpeg";
+import serv from "../assets/imgs/services.jpeg";
 import { motion } from "framer-motion";
 
-const arr = [ab1, ab2, ab3];
+const arr = [ab1, ab2, serv, ab3];
 
 const Imgslideshow = () => {
   const [img, setImg] = useState(0);
 
   useEffect(() => {
     const id = setInterval(() => {
-      setImg((p) => (p + 1) % 3);
+      setImg((p) => (p + 1) % arr.length);
     }, 4000);
 
     return () => {
