@@ -3,7 +3,7 @@ import Imgslideshow from "./Imgslideshow";
 const About = () => {
   return (
     <div className="con">
-      {/* <Imgslideshow /> */}
+      <Imgslideshow />
       <h1>ABOUT US</h1>
     </div>
   );

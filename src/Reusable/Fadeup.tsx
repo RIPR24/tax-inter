@@ -16,7 +16,7 @@ const Fadeup = (props: props) => {
         <motion.div
           initial={{ y: 80, opacity: 0, scale: 1.01 }}
           animate={{ y: 0, opacity: 1, scale: 1 }}
-          transition={{ duration: 0.9, delay: 0.3 + (props.del || 0) * 0.2 }}
+          transition={{ duration: 0.9, delay: 0.1 + (props.del || 0) * 0.2 }}
         >
           {props.children}
         </motion.div>

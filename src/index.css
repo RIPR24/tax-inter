@@ -71,6 +71,7 @@ img {
   flex-direction: column;
   justify-content: flex-end;
   height: 400px;
+  margin-top: 20px;
 }
 
 .intro {

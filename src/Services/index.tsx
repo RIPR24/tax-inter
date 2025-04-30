@@ -25,8 +25,8 @@ const Services = () => {
       <img src={sr} alt="" style={{ width: "50%" }} />
       <div className="ser-con">
         {dat.map((el, i) => (
-          <Fadeup del={i % 3}>
-            <div key={i} className="card shrt">
+          <Fadeup key={i} del={i % 3}>
+            <div className="card shrt">
               <img src={pics[i]} style={{ height: 60, width: 60 }} />
               <h2>{el.title}</h2>
               <p>{el.head}</p>

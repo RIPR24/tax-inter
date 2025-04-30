@@ -1,8 +1,10 @@
+import hr from "./assets/imgs/hero.png";
+
 const Hero = () => {
   return (
     <div className="hero">
       <img
-        src="https://t4.ftcdn.net/jpg/05/16/20/99/360_F_516209984_APT701DWSDCUPzErByEByUrqEjHwRYCX.jpg"
+        src={hr}
         style={{
           width: "100%",
           position: "absolute",
