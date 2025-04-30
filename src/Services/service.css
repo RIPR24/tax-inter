@@ -39,3 +39,10 @@
   margin-right: 15px;
   scale: 1.02;
 }
+
+@media (max-width: 450px) {
+  .ser-con {
+    grid-template-columns: 1fr;
+    height: 2900px;
+  }
+}

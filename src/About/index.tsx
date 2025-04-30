@@ -1,20 +1,13 @@
 import Fadeup from "../Reusable/Fadeup";
 import Headings from "../Reusable/Headings";
 import Imgslideshow from "./Imgslideshow";
+import "./abt.css";
 
 const About = () => {
   return (
     <div className="con">
       <Imgslideshow />
-      <div
-        style={{
-          width: 600,
-          height: 400,
-          marginRight: 300,
-          textAlign: "justify",
-          marginTop: 100,
-        }}
-      >
+      <div className="about-con">
         <Headings str="ABOUT US" />
         <Fadeup del={1}>
           <p style={{ fontSize: "1.2rem" }}>

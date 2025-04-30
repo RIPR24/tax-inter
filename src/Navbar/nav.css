@@ -22,3 +22,13 @@
   font-size: 1.2rem;
   text-decoration: none;
 }
+
+@media (max-width: 450px) {
+  .navbar {
+    padding: 0 5px;
+    height: 40px;
+  }
+  .navbar a {
+    font-size: 0.8rem;
+  }
+}

@@ -27,20 +27,11 @@ const reviews = [
 
 const Reviews = () => {
   return (
-    <div style={{ width: "80%", maxWidth: 1000, position: "relative" }}>
+    <div className="grid-2">
       {reviews.map((el, i) => {
         return (
           <Fadeup del={i} key={i}>
-            <div
-              className="card"
-              style={{
-                width: 400,
-                height: 200,
-                position: "absolute",
-                top: i * 280,
-                left: Math.ceil(500 * Math.random()),
-              }}
-            >
+            <div className="card riv">
               <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
                 <img src={pr} style={{ height: 40, width: 40 }} />
                 <div>

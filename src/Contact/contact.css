@@ -8,12 +8,6 @@
   margin-bottom: 40px;
 }
 
-.con-ab {
-  width: 30%;
-  max-width: 300px;
-  padding: 20px;
-}
-
 .con-ab h1 {
   color: #2c1ee8;
   font-size: 3rem;
@@ -26,4 +20,14 @@
 .con-con label {
   font-size: 1.2rem;
   text-align: right;
+}
+
+@media (max-width: 450px) {
+  .con-con {
+    grid-template-columns: 30% 65%;
+  }
+
+  .con-con label {
+    font-size: 1rem;
+  }
 }

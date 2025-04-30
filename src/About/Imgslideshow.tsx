@@ -20,7 +20,7 @@ const Imgslideshow = () => {
     };
   }, []);
   return (
-    <div style={{ height: 600 }}>
+    <div style={{ height: 500 }}>
       {arr.map((el, i) => {
         return (
           <>
@@ -31,7 +31,7 @@ const Imgslideshow = () => {
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: 20 }}
                 src={el}
-                style={{ width: "100%", height: 600 }}
+                style={{ width: "100%", height: 400 }}
               />
             )}
           </>

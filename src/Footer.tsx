@@ -9,16 +9,7 @@ import ftr from "./assets/imgs/FTR.jpeg";
 const Footer = () => {
   const navigate = useNavigate();
   return (
-    <div
-      style={{
-        height: 300,
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-evenly",
-        backgroundColor: "#242424",
-        color: "white",
-      }}
-    >
+    <div className="footer">
       <div
         style={{
           display: "flex",

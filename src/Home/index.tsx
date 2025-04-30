@@ -8,16 +8,9 @@ const Home = () => {
   return (
     <div className="con">
       <Hero />
-      <div style={{ height: 1850 }}>
+      <div className="con-home">
         <Fadeup>
-          <div
-            style={{
-              display: "flex",
-              width: "100%",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
+          <div className="contact-con">
             <div className="con-ab">
               <img src={sr} alt="" style={{ width: "80%" }} />
               <h3>533, D.H. ROAD, Poraaswathtatala</h3>
@@ -45,6 +38,7 @@ const Home = () => {
             justifyContent: "space-evenly",
             padding: "10px 20px",
           }}
+          className="contact-con"
         >
           <Fadeup del={1}>
             <div className="card cd">

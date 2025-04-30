@@ -1,0 +1,12 @@
+.about-con {
+  width: 90%;
+  max-width: 600px;
+  text-align: justify;
+  height: 400px;
+}
+
+@media (max-width: 45rem) {
+  .about-con {
+    height: 600px;
+  }
+}

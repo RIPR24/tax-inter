@@ -42,14 +42,7 @@ const Contact = () => {
 
   return (
     <div className="con">
-      <div
-        style={{
-          display: "flex",
-          width: "100%",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
+      <div className="contact-con">
         <div className="con-ab">
           <img src={sr} alt="" style={{ width: "80%" }} />
           <h3>533, D.H. ROAD, Poraaswathtatala</h3>

@@ -21,6 +21,12 @@ body {
   width: 100%;
 }
 
+.con-ab {
+  width: 30%;
+  max-width: 300px;
+  padding: 20px;
+}
+
 .con {
   margin-top: 50px;
   padding: 20px;
@@ -114,6 +120,13 @@ img {
   margin: 10px;
 }
 
+.contact-con {
+  display: flex;
+  gap: 20;
+  align-items: center;
+  justify-content: center;
+}
+
 .cd {
   height: 200px;
   width: 25vw;
@@ -140,4 +153,63 @@ img {
 
 .foot-links > p:hover {
   color: aliceblue;
+}
+
+.footer {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #242424;
+  color: white;
+}
+
+.con-home {
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.riv {
+  width: 80%;
+  max-width: 300px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+}
+
+@media (max-width: 450px) {
+  .footer {
+    flex-direction: column;
+    height: 700px;
+  }
+
+  .foot-links {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+
+  .con-ab {
+    width: 80%;
+  }
+
+  .contact-con {
+    flex-direction: column;
+  }
+
+  .cd {
+    width: 80vw;
+  }
+
+  .con-home {
+    height: 2350px;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
 }
