@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./contact.css";
 import sr from "../assets/logo.png";
 import { useParams } from "react-router-dom";

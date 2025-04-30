@@ -1,4 +1,3 @@
-import sr from "../assets/logo.png";
 import Fadeup from "../Reusable/Fadeup";
 import { dat } from "./data";
 import "./service.css";
